@@ -1,6 +1,6 @@
 #!/bin/bash
 ## filename variable
-FILENEW=leaversexcel`date +%Y-%m-%d`.txt
+FILENEW=leaversexcel`date +%Y-%m-%d`.csv
 
 ## Ask for input file
 read -e -p "Enter filename, use tab for completion: " file
